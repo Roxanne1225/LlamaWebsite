@@ -1,0 +1,225 @@
+/* #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  height: 10%;
+} */
+
+.vidContainer {
+    width:100%; height:360px;
+    position:relative;
+    display:inline-block;
+    /* margin:10px; */
+    /* background-color: rgba(59, 155, 179, 0.66); */
+    background-color: #fff3e6;
+}
+#myVideo{
+    position: absolute;
+    top: 0; left:0;
+    width: 100%; height: 100%;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+h1{
+  /* to use z index position must be absolute */
+  position: absolute;
+  /* margin: auto; */
+  margin-top: 150px;
+  margin-left: 160px;
+  z-index: 4;
+  font-weight: bold;
+  font-size: 3.2em;
+  /* padding-bottom: 40px; */
+}
+
+.horizontal-boxes{
+  background-color: #ffccb3;
+  display: flex;
+}
+.box{
+  width: 40%;
+  /* margin: 0 150px 50px 0; */
+  background-color: #ffe6cc;
+}
+
+h2{
+  text-align: center;
+}
+
+h3{
+  text-align:center;
+  font-size: 1.2em;
+}
+
+.llamainfo{
+  margin: 10px;
+  border-style: dashed;
+  border-width: 2px;
+  padding: 15px;
+  line-height: 1.5em;
+}
+
+.intro dl{
+  /* width: 100%; */
+  overflow: hidden;
+}
+
+.intro dt{
+  float: left;
+  width: 60%;
+  padding: 0;
+  margin: 0;
+  font-family: Courier New, monospace;
+}
+
+.intro dd{
+  float: left;
+  width: 40%;
+  padding: 0;
+  margin: 0
+}
+
+.intro{
+  margin-left: 125px;
+}
+
+.apps{
+  margin-right: 80px;
+  margin-left: 5px;
+}
+
+#circle{
+  position: absolute;
+  top: 300px;
+  left: 45%;
+  z-index: 3;
+  opacity:0.6;
+}
+
+.app{
+  margin: 10px;
+  border-style: dashed;
+  border-width: 2px;
+  padding: 15px;
+  line-height: 1.5em;
+}
+
+.photo-slider{
+  position: relative;
+  /* text-align: center; */
+  background-color: #ffb366;
+	border-top: 3px dotted #000;
+	border-bottom: 3px dotted #000;
+	box-shadow: inset 0 -1px 0 0 #000, inset 0 1px 0 0 #000, 0 1px 0 0 #000, 0 -1px 0 0 #000;
+	margin-bottom: 1px;
+}
+img {
+  display: block;
+  max-width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* styles for photo slider */
+.prev, .next{
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 7%;
+  /* margin-top: -50px; */
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.credit {
+  display: block;
+  background-color: rgba(43, 38, 38, 0.4);
+  color: #f2f2f2;
+  width: 80%;
+  font-size: 15px;
+  padding: 18px 12px;
+  position: absolute;
+  left: 8%;
+  bottom: 0;
+  /* text-align: center; */
+}
+
+.images{
+    display: none;
+}
+
+
+/* quiz app styles */
+
+.fact{
+  list-style: none;
+  line-height: 2;
+}
+
+.quiz p{
+  text-align: left;
+}
+
+.btn-3d{
+  text-decoration: none;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  width:70%;
+  color:white;
+  padding: 10px 30px;
+	background-color: #b35900;
+	box-shadow: 0 0 0 1px #F0D264 inset,
+				0 0 0 2px rgba(255,255,255,0.15) inset,
+				0 8px 0 0 rgba(196, 172, 83, .7),
+				0 8px 0 1px rgba(0,0,0,.4),
+				0 8px 8px 1px rgba(0,0,0,0.5);
+}
+.btn-3d:active {
+	box-shadow: 0 0 0 1px #F0D264 inset,
+				0 0 0 2px rgba(255,255,255,0.15) inset,
+				0 0 0 1px rgba(0,0,0,0.4);
+}
+
+#forPostyouradd{
+  position: absolute;
+  left: 20%;
+  top: 10%;
+  z-index: 5;
+}
+
+#close-quiz{
+  font-size: 1.5em;
+  position: absolute;;
+  left: 80%;
+  top: 10%;
+  z-index: 6;
+}
+
+#close-quiz:hover{
+  cursor: pointer;
+  color: red;
+}
+
+.aboutme{
+  background-color:#ff9999;
+  text-align:center;
+  font-size: 1.5em;
+  padding: 4%;
+
+}

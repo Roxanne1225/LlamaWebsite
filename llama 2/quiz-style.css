@@ -1,0 +1,68 @@
+
+.pic{
+  width:30%;
+  height: auto;
+}
+
+body{
+  background-color: #ffe0cc;
+}
+
+.clicked-right{
+  color: white;
+  background-color: #33ff99;
+}
+
+.clicked-wrong{
+  color: white;
+  background-color: #ff1a1a;
+}
+
+
+.clicked-wrong:before{
+   content:  "\2717";
+
+}
+.clicked-right:before{
+   content:  "\2713 ";
+
+}
+
+button{
+  font-size: 20px;
+  margin-right:5px;
+  background-color: white;
+  border-radius: 12px;
+  background-color: #C05805;
+  color: white;
+}
+
+.aproblem{
+  background-color: #ffc299;
+  margin-top: 40px;
+  display: block;
+  text-align: center;
+}
+
+
+.score{
+  display: block;
+  text-align:center;
+  background-color:#DB9501;
+  font-size: 1.5em;
+  padding: 5px;
+}
+
+
+.before-login{
+  margin-top: 30%;
+  display: block;
+  text-align:center;
+  background-color:#DB9501;
+  font-size: 2em;
+
+}
+
+.question{
+   font-size:1.3em;     
+}
